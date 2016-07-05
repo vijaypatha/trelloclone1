@@ -1,0 +1,54 @@
+html {
+  background: url('https://images.unsplash.com/12/sun-trees.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2cab3d961886ce8445723dfb4941f150') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: transparent;
+}
+
+h1{
+text-align: center;
+letter-spacing: 15px;
+}
+
+h3 {
+  margin-top: 0;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+  .row {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .list {
+    border: 1px solid #5d5d5d;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 1000px;
+    margin: 0 10px;
+    padding: 20px;
+  }
+
+  .card {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #5d5d5d;
+    border-radius: 2px;
+    cursor: -webkit-grab;
+  }
+
+    .card:hover {
+      background-color: #eee;
+    }
